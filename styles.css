@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/y2meta\ com\ Futuristic\ Game\ Room\ 4K\ Live\ Wallpaper\ 1080p.gif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 1rem;
+    width:50%;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7% 5%;
+}
+
+h1{
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 20px #c300ff, 0 0 10px #c300ff, 0 0 40px #c300ff, 0 0 10px #c300ff, 0 0 75px #c300ff;
+
+}
+
+
+
+
+.name label{
+    font-size:1.5rem;
+    margin:1rem;
+    color: #ffffff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #46005c, 0 0 10px #46005c, 0 0 40px #46005c, 0 0 10px #46005c, 0 0 75px #46005c;
+
+}
+
+.name input{
+    height: 2.5rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    border:none;
+    margin: 1rem;
+}
+
+.btn{
+    padding:.7rem 4rem;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color:#c300ff4f;
+    color: #FFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #46005c, 0 0 10px #46005c, 0 0 40px #46005c, 0 0 10px #46005c, 0 0 75px #46005c;
+    letter-spacing: 10;
+
+}
+
+.btn:hover{
+    background-color: #c300ff6c;
+    cursor: pointer;
+}
+
+.f-name{
+    margin-top: 2rem;
+}
+.l-name{
+    margin-bottom: 2rem;
+}
